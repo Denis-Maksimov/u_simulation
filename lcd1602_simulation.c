@@ -36,6 +36,12 @@ void u_sleep(unsigned int seconds)
     fflush(stdout);
     sleep(seconds);
 }
+
+void u_sleep_ms(unsigned int mseconds)
+{
+    fflush(stdout);
+    usleep(mseconds*1000);
+}
 //====================================
 
 

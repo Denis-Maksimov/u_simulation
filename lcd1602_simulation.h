@@ -50,7 +50,7 @@
 extern void lcd_clear(void);
 extern void lcd_draw(void);
 extern void u_sleep(unsigned int seconds);
-
+extern void u_sleep_ms(unsigned int mseconds);
 extern void init(void);
 extern void reset(void) ;
 
